@@ -1,0 +1,115 @@
+body{
+    background-color: beige;
+    font-family: Arial;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.navbar{
+    background-color: #213945;
+    width: 100%; /* define a largura do cabeçalho como 100% */
+    position: fixed; /* fixa o cabeçalho na página */
+    top: 0; /* fixa o cabeçalho no topo da página */
+    left: 0; /* fixa o cabeçalho na lateral esquerda da página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#nav-list{
+    position: fixed; /* fixa a lista na página */
+    top: 0; /* define a posição do topo da lista */
+    right: 0; /* define a posição da direita da lista */
+    margin-right: 10%;
+    color: white;
+    padding-right: 10px;
+}
+
+.nav-itens{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.nav-link{
+    color: white;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#divisor{
+    font-size: 30px;
+    color: white;
+}
+
+#logo{
+    width: 150px;
+    margin-left: 40px;
+}
+
+#logo-capa{
+    width: 70%;
+    display: block;
+    margin-left: 16%; 
+    margin-top: 10%;   
+}
+
+.page{
+    text-align: center;
+    color: black;
+    margin-top: 7%; 
+    margin-bottom: 10px;
+    background-color: beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 15px;
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 10px;
+}
+
+.produto {
+    padding: 20px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 30%;
+    height: auto;
+}
+
+.produto h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.produto p {
+    margin-bottom: 10px;
+}
+
+.produto button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.texto-sobre{
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: 23%;
+    padding-bottom: 20px;
+    white-space: pre-line;
+    text-align: justify;
+}
+
+#img-fundo-rodape{
+    width: 100%;
+    opacity: 100%;
+}

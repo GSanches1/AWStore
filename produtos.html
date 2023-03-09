@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="icon" href="img/logo.ico">
+    <script src="scripts.js"></script>
+	<title>Almeida & Werneck - Store</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar"> <!-- NAVBAR -->
+            <a href="index.html">
+                <img src="img/logo-login.png" id="logo">
+            </a>
+            <ul id="nav-list">
+                <li class="nav-itens">
+                   <a href="index.html" class="nav-link">HOME</a>
+                </li>
+            	<li class="nav-itens">
+            	   <a href="index.html#about-us" class="nav-link">EMPRESA</a>
+            	</li>
+                <li class="nav-itens">
+                    <a href="produtos.html" class="nav-link">PRODUTOS</a>
+                </li>
+            	<li class="nav-itens">
+            	   <a href="contato.html" class="nav-link">CONTATO</a>
+            	</li>
+            	
+            	<li id="divisor" class="nav-itens">|</li> 
+
+            	<!--<li class="nav-itens">
+           			<a href="login.html" class="nav-link">LOGIN</a>
+            	</li>
+            	<li class="nav-itens">
+            		<a href="cadastro.html" class="nav-link">CADASTRO</a>
+            	</li-->
+            </ul>
+        </nav>
+    </header>
+    
+<div class="page">
+   <h1 id="produtos">PRODUTOS</h1>
+   
+   <br><br><br>
+
+   <select id="filtro-categoria">
+      <option value="todos">Todos</option>
+      <option value="roldanas">Roldanas</option>
+      <option value="sapatas">Sapatas</option>
+   </select>
+
+   <div class="produtos-grid">
+      <div class="produto roldanas">
+            <img src="img/product-image/Roldana-Grande/roldana-grande.png" alt="Roldana Grande">
+            <h3>Roldana Coladora de Borda - Tam. Grande</h3>
+            <p>Descrição do produto 1.</p>
+            <span>Categoria: Roldanas</span>
+      </div>
+
+      <div class="produto roldanas">
+            <img src="img/product-image/Roldana-Pequena/roldana-pequena.png" alt="Roldana Pequena">
+            <h3>Roldana Coladora de Borda - Tam. Pequeno</h3>
+            <p>Descrição do produto 2.</p>
+            <span>Categoria: Roldanas</span>
+      </div>
+   
+      <div class="produto sapatas">
+            <img src="img/product-image/Sapata-Borrachinha/sapata-borrachinha.png" alt="Sapata Borrachinha">
+            <h3>Sapata sem Base</h3>
+            <p>Descrição do produto 3.</p>
+            <span>Categoria: Sapatas</span>
+      </div>
+   
+      <div class="produto sapatas">
+            <img src="img/product-image/Sapata-Grande/sapata-grande.png" alt="Sapata Grande">
+            <h3>Sapata com Base</h3>
+            <p>Descrição do produto 4.</p>
+            <span>Categoria: Sapatas</span>
+      </div>
+   </div>
+</div>
+
+</div>
+
+</body>
+</html>

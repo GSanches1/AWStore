@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    background-color: beige;
+    background-color: honeydew;
     font-family: Arial;
     scroll-behavior: smooth;
 }
@@ -33,7 +33,7 @@ h1{
 
 .nav-itens{
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .nav-link{
@@ -45,7 +45,7 @@ h1{
 
 #divisor{
     font-size: 30px;
-    color: white;
+    color: #213945;
 }
 
 #logo{
@@ -54,10 +54,10 @@ h1{
 }
 
 #logo-capa{
-    width: 70%;
+    width: 30%;
     display: block;
-    margin-left: 16%; 
-    margin-top: 10%;   
+    margin-left: 35%; 
+    margin-top: 5%;   
 }
 
 .page{
@@ -114,7 +114,7 @@ h1{
     text-align: justify;
 }
 
-.email-form{
+/*.email-form{
     display: inline-block;
     padding: 50px;
 }
@@ -140,7 +140,7 @@ h1{
 
 #submit:hover{
     background-color: deepskyblue;
-}
+}*/
 
 .wpp-contact{
     position: relative;
@@ -158,4 +158,25 @@ h1{
 
 .mapa{
     display: inline-block;
+}
+
+.carousel {
+    width: 100%; /* define a largura do carousel */
+    overflow: hidden; /* esconde as partes do carousel que ficam fora da área visível */
+}
+
+.carousel-container {
+    display: flex; /* define o container dos itens como um flex container */
+    width: 100%; /* define a largura do container como a mesma do carousel */
+    transition: transform 0.5s ease; /* adiciona transição para a animação do carousel */
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* define o tamanho dos itens do carousel */
+    width: 100%; /* define a largura dos itens */
+    margin-right: 10px; /* define a margem entre os itens */
+}
+
+.carousel-item img {
+    width: 100%; /* define a largura da imagem como a mesma do item */
 }

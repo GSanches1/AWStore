@@ -12,6 +12,14 @@ h1{
     padding-top: 30px;
 }
 
+ul ul {
+    display: none;
+}
+
+.tipos:hover ul {
+    display: block;
+}
+
 .navbar{
     background-color: #213945;
     width: 100%; /* define a largura do cabeçalho como 100% */
@@ -179,4 +187,32 @@ h1{
 
 .carousel-item img {
     width: 100%; /* define a largura da imagem como a mesma do item */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
